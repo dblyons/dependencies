@@ -3,8 +3,8 @@ keeping a list of the programs and scripts I need
 ##################################################
 from my new ubuntu 18.04 lts build early 2019
 #################################################
-htop 
-  sudo apt install htop
+htop
+sudo apt install htop
 
 pip 
   sudo apt install python-pip
