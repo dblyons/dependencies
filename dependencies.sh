@@ -27,3 +27,31 @@ wget --timestamping http://hgdownload.soe.ucsc.edu/admin/jksrc.zip
 
 #bowtie 
 sudo apt-get install bowtie
+
+#hisat2
+#sudo apt-get install hisat2
+#that doesn't come with sra-acc as default-- get binaries from here and put in path-accessible dir like /usr/local/bin
+https://ccb.jhu.edu/software/hisat2/manual.shtml
+
+#R and R studio
+sudo apt-get install gdebi-core
+sudo apt-get install r-base-core
+wget https://download2.rstudio.org/rstudio-server-1.1.463-amd64.deb
+sudo gdebi rstudio-server-1.1.463-amd64.deb
+
+#igv
+
+#sra_toolkit
+wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+tar -xzf sratoolkit.current-ubuntu64.tar.gz
+# then cd into new sratoolkit dir
+# and move to a directory that is path accessible (I like usr-local-bin) ` sudo mv ./bin/* /usr/local/bin/ `
+
+#ncbi-ngs
+https://github.com/ncbi/ngs/wiki/Downloads
+#move to dir in path
+
+
+
+
+
