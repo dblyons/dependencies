@@ -1,6 +1,9 @@
 #pip 
 sudo apt install python-pip
 
+#conda
+bash Miniconda3-latest-Linux-x86_64.sh
+
 #fastqc
 sudo apt-get install fastqc
 
@@ -50,6 +53,11 @@ tar -xzf sratoolkit.current-ubuntu64.tar.gz
 #ncbi-ngs
 https://github.com/ncbi/ngs/wiki/Downloads
 #move to dir in path
+
+#bsmap
+conda install -c bioconda bsmap
+
+#bismark
 
 
 
